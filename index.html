@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Untitled</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" media="screen" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" media="screen" href="./css/style.css">
+
+	<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-default" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="<?php echo base_url() ?>">Untitled</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div class="row">
+			<div class="col-md-12 head">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="http://placehold.it/1298x300/2196F3" alt="Images">
+							<div class="carousel-caption">
+								<h3>Test</h3>
+							</div>
+						</div>
+						<div class="item">
+							<img src="http://placehold.it/1298x300/00BCD4" alt="Images">
+						</div>
+						<div class="item">
+							<img src="http://placehold.it/1298x300/3F51B5" alt="Images">
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="col-md-9 col">
+				<h1 id="judul" class="page-header">Title</h1>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id velit fugit dolore, soluta expedita aperiam quos ducimus numquam cum enim provident ad. Doloribus recusandae delectus repudiandae ratione assumenda quae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia amet ad magni qui deleniti beatae repudiandae minima molestias recusandae autem natus maiores, eligendi quae, sint earum obcaecati commodi. Ea, velit!</p>
+			</div>
+			<div class="col-md-3 col">
+				<section class="row">
+					<h3 id="judul" class="page-header">Title</h3>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">Item 1</a>
+						<a href="#" class="list-group-item">Item 2</a>
+						<a href="#" class="list-group-item">Item 3</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
